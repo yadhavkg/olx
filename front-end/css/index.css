@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grey{
+    background-color: grey;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.img1{
+    margin-left: 30px;
+    /* margin-top: 20px; */
+}
+.sell{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-sell{
+    width: 100px;
+    height: 40px;
+    color: black;
+    border: 2px (red,blue) dotted;
+    border-radius: 20px;
+    background-color: yellow;
+    margin-top: 10px;
+    font-size: 20px
+}
+.btn-sell:hover{
+    background-color: black;
+    color: yellow;
+}
+.log{
+    margin: 20px;
+}
+.log:hover{
+    color: blue;
+}
+.search{
+    width: 1100px;
+    height: 40px;
+    margin-top: 7px;
+}
+.search2{
+        width: 300px;
+        height: 40px;
+        margin-top: 7px;
+        margin-right: 40px; 
+}
+.titleimg{
+    background-color: red;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    height: 300px;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
